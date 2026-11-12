@@ -79,3 +79,7 @@ python -m venv runtime
 本项目自有代码采用 GPL-3.0-or-later；第三方代码、Python、依赖库和 Apple / 运营商载荷保留各自许可和权利，不因本仓库的代码许可证改变。详见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。
 
 使用流程和权限方案来自该特定配置的实测反馈；公开版的去绑定、机型检查及流程经过离线测试，公开版未额外在手机上执行完整实测。详细文件与操作说明见 [使用说明.md](使用说明.md)。
+
+## 重要补充！！！
+
+实测完整模式可能由于刚更新了ipcc 所以触发了commcenter的额外update流程 如果执行完整模式后设置里仍未出现5gsa开关和vonr开关 请重启设备然后执行一次普通模式！！！
