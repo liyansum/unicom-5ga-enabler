@@ -1,0 +1,33 @@
+{
+  "file": "payloads/Unicom_cn_73.0_original.ipcc",
+  "model": "iPhone 14 Pro / iPhone15,2 / D73",
+  "carrier": "com.apple.Unicom_cn",
+  "version": "73.0",
+  "sha256": "54b8895eec8e815830d6587d6500fdd11a34c6ed4522b4490e74801435f845c6",
+  "files": {
+    "carrier.plist": {
+      "size": 8317,
+      "sha384": "0fe9d9116b6d6d66d167ada3ba8baae1527a6b0a9b7a0ac435887b1108646531ccc835e49fbc89d1a08a6606859866b0"
+    },
+    "Info.plist": {
+      "size": 401,
+      "sha384": "582a9492b930facda2bd45d4ca59e5d95452c202f1f3b03f822cbc84272c62776910c670a525c1f20352fcb00ad2df8e"
+    },
+    "overrides_D73_D74_D27_D28.der.pri": {
+      "size": 13970,
+      "sha384": "a19a4fdf2e809d298373eb050b81bf83443d82cd3fe4000a2afe15a9c03d3d7064cce0ef19c9d76b51af2a0c4b2fc6fc"
+    },
+    "overrides_D73_D74_D27_D28.plist": {
+      "size": 746,
+      "sha384": "c1fcf5a7b58791ef3adab3d4667e1cf9d2d61d9d1504644abbc327652562f0f26b0821082512b78a8b126f7f782f6839"
+    },
+    "signatures/common.plist": {
+      "size": 448,
+      "sha384": "bbfc8079c30e1654084e9c1ccf66d3c661636e3f34dbd87e07410fda20df91c47ab1a45524fe74d0f5a78070debfcc30"
+    },
+    "signatures/overrides_D73_D74_D27_D28.plist": {
+      "size": 900,
+      "sha384": "ffe2ec6f8901e8c099bf9f1608bd58885b9c07276dfdf84ace2b70f4b08095c45bf411e3127dc102695f65a2722a9b01"
+    }
+  }
+}

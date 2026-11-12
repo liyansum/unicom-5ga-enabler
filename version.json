@@ -1,0 +1,56 @@
+{
+  "name": "开启5GA",
+  "version": "4.2.0",
+  "launcher": "开启5GA.bat",
+  "applicable_device": "iPhone 14 Pro / iPhone15,2",
+  "applicable_ios": "27.0.1",
+  "applicable_carrier": "中国联通",
+  "merged_debug_menu": true,
+  "menu": {
+    "1": "full",
+    "2": "normal",
+    "3": "debug"
+  },
+  "debug_actions": {
+    "1": "debug_ipcc",
+    "2": "debug_bundle",
+    "3": "debug_aux",
+    "4": "debug_overlay",
+    "5": "debug_reload"
+  },
+  "bundle_triplet_mode": "0644",
+  "bundle_other_mode": "0600",
+  "bundle_other_files": [
+    "carrier.plist",
+    "signatures/common.plist",
+    "Info.plist"
+  ],
+  "rewrite_other_files_even_when_content_matches": true,
+  "overlay_mode": "0555",
+  "normal_steps": [
+    "overlay_7201",
+    "overlay_730",
+    "reload_commcenter",
+    "overlay_7201_after_reload",
+    "overlay_730_after_reload"
+  ],
+  "full_order": [
+    "original_ipcc",
+    "bundle_triplet_0644",
+    "bundle_other_0600",
+    "overlays_0555",
+    "reload_commcenter",
+    "overlays_0555_again"
+  ],
+  "target_readback": false,
+  "original_ipcc": "payloads/Unicom_cn_73.0_original.ipcc",
+  "pre_kill_wait_seconds": 5,
+  "new_pid_stable_seconds": 15,
+  "reload_timeout_seconds": 90,
+  "permission_scheme_source": "user_device_test_2026-11-12",
+  "new_merged_flow_device_tested": false,
+  "cleanup": "no symlink traversal; verify removal; clean on success and failure",
+  "public_distribution": true,
+  "device_selection": "single USB device; runtime only",
+  "applicable_build": "24A446"
+}

@@ -1,0 +1,10 @@
+*.py text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.txt text eol=lf
+*.yml text eol=lf
+*.bat text eol=crlf
+*.sha384 text eol=lf
+*.plist binary
+*.ipcc binary
+*.pri binary

@@ -1,0 +1,38 @@
+{
+  "unicom.der.pri": {
+    "size": 14801,
+    "sha384": "6bec2675e57b65327b396c0306f80e60e434552c4de52aed79174b0cd58ecdc8199a223b726e90610b3a7383ec4d7524"
+  },
+  "unicom_72.0.1.plist": {
+    "size": 8668,
+    "sha384": "27c5e67a1e34a7487152c2275b38b6c67197fa2d1432b776bfb74e4c3b407bb2ec6df5930481c183132c7447374a58bc"
+  },
+  "unicom_73.0.plist": {
+    "size": 8668,
+    "sha384": "27c5e67a1e34a7487152c2275b38b6c67197fa2d1432b776bfb74e4c3b407bb2ec6df5930481c183132c7447374a58bc"
+  },
+  "unicom_carrier.plist": {
+    "size": 8317,
+    "sha384": "0fe9d9116b6d6d66d167ada3ba8baae1527a6b0a9b7a0ac435887b1108646531ccc835e49fbc89d1a08a6606859866b0"
+  },
+  "unicom_common_signature.plist": {
+    "size": 448,
+    "sha384": "bbfc8079c30e1654084e9c1ccf66d3c661636e3f34dbd87e07410fda20df91c47ab1a45524fe74d0f5a78070debfcc30"
+  },
+  "unicom_Info.plist": {
+    "size": 401,
+    "sha384": "582a9492b930facda2bd45d4ca59e5d95452c202f1f3b03f822cbc84272c62776910c670a525c1f20352fcb00ad2df8e"
+  },
+  "unicom_overrides.plist": {
+    "size": 753,
+    "sha384": "40bbb98257f804ef56d346c1d2f4372a606788aaedd2c95870c0bf20cd36b52d123869b7e590106629562b43e155e0c2"
+  },
+  "unicom_signature.plist": {
+    "size": 897,
+    "sha384": "1350ebb3a27221210b56b421825a17f78e2d17d45f24d429e5e2f6f18f539c594d1795dfe8f4c2c8fe2d53aa452a2a77"
+  },
+  "Unicom_cn_73.0_original.ipcc": {
+    "size": 16050,
+    "sha384": "cc53ebdec981b11d836c498e18ca567ed5442b8c829904602b5b27fde3896a7e5130ad61d85db7b4c3b3ddc6f7260825"
+  }
+}
